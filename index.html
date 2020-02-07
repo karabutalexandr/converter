@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="convert-box box">
+			<div class="initial-value">
+				<p>Введите конвертируемое значение</p>
+				<input type="text" id="input-initial-val" placeholder="Введите значение">
+			</div>
+
+			<div class="result-value">
+				<p>Результат</p>
+				<input type="text" id="input-result-val">
+			</div>
+		</div>
+		
+		<div class="button-box box">
+			<div class="container">
+				<div class="input-switch">
+					<label for="switchy">Километры</label>
+					<input type="checkbox" id="switchy" class="input" />
+					<label for="switchy" class="switch"></label>
+					<label for="switchy">Метры</label>
+				</div>
+
+				<div class="convert-button">
+					<button id="convert-bottom">Конвертировать</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="select-box box">
+			<select id="select-list"> 
+				<option value="versts" selected>Версты</option> 
+				<option value="yards">Ярды</option>
+				<option value="miles">Мили</option>
+				<option value="feet">Футы</option>
+			</select>
+		</div>
+
+	</div>
+	 
+	<script src="main.js"></script>
+</body>
+</html>
